@@ -1,5 +1,7 @@
 # Introduction
-Bienvenue dans ce cours d'introduction à la programmation avec le langage PHP. Vous allez débuter en a pprenant les bases du développement en PHP.
+Bienvenue dans ce cours de PHP ! Le PHP, acronyme récursif pour "PHP: Hypertext Preprocessor", est un langage de script côté serveur largement utilisé pour le développement web. Depuis sa création en 1994 par Rasmus Lerdorf, le PHP est devenu l'un des langages les plus populaires pour la création de sites web dynamiques et interactifs.
+
+Le PHP est intégré directement dans le code HTML, ce qui permet de créer facilement des pages web dynamiques. Sa syntaxe simple et intuitive le rend accessible aux débutants
 
 ## Présentation du cours
 Ce cours vous guidera à travers les concepts de base de PHP, un langage de script populaire utilisé pour créer des sites web dynamiques et interactifs.

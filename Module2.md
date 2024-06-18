@@ -25,7 +25,7 @@ PHP s'intègre dans le code HTML en utilisant des balises spécifiques. Voici co
     </html>
     ```
     **Affichage de Texte avec echo et print**
-    echo et print sont utilisés pour afficher des données à l'écran.
+    echo et print sont utilisées pour afficher des données à l'écran.
     ```php
     <?php
     echo "Bonjour, monde!"; // Utilisation de echo
@@ -54,7 +54,7 @@ PHP s'intègre dans le code HTML en utilisant des balises spécifiques. Voici co
     $age = 30;
     ?>
     ```
-    **T*ypes de Données***
+    ***Types de Données***
     PHP supporte plusieurs types de données :
     - String (chaîne de caractères)
     - Integer (entier)
@@ -77,10 +77,10 @@ PHP s'intègre dans le code HTML en utilisant des balises spécifiques. Voici co
     ***Opérateurs***
     PHP utilise divers opérateurs pour effectuer des opérations sur des variables.
 
-    - Opérateurs arithmétiques : +, -, *, /, %
-    - Opérateurs d'affectation : =, +=, -=, *=, /=, %=
-    - Opérateurs de comparaison : == , != , <>, === , !==, >, <, >=, <=
-    - Opérateurs logiques : &&, ||, !, and, or, xor
+    - Opérateurs arithmétiques : + , - , * , / , %
+    - Opérateurs d'affectation : = , += , -= , *= , /= , %=
+    - Opérateurs de comparaison : == , != , <> , === , !== , > , < , >= , <=
+    - Opérateurs logiques : && , || , ! , and , or , xor
 
     ***Exemple***
     ```php

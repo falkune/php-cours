@@ -1,5 +1,5 @@
 # Module 1 : Introduction à PHP
-PHP, qui signifie "Hypertext Preprocessor", est un langage de script open source côté serveur largement utilisé pour le développement web. Initialement créé en 1994 par Rasmus Lerdorf, PHP a depuis évolué pour devenir l'un des langages de programmation les plus populaires pour créer des sites web dynamiques et des applications web.
+PHP, qui signifie "Hypertext Preprocessor", est un langage de script open source s'executant côté serveur largement utilisé pour le développement web. Initialement créé en 1994 par Rasmus Lerdorf, PHP a depuis évolué pour devenir l'un des langages de programmation les plus populaires pour créer des sites web dynamiques et des applications web.
 
 <img src="./img/PHP-logo.png" alt="Logo php" style="width:200px;"/>
 
