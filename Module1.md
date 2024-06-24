@@ -116,9 +116,9 @@ XAMPP est un choix populaire car il est compatible avec Windows, macOS et Linux.
 1) Test du Serveur Web :
     - Ouvrez votre navigateur web et tapez http://localhost/.
     - Vous devriez voir la page d'accueil de WAMP.
+    ![Apache home page](./img/apache-home-page.png)
 
 2) Test de PHP :
-
     - Dans le répertoire www de WAMP (généralement C:\wamp\www), créez un fichier nommé info.php.
     - Ajoutez le code suivant dans ce fichier :
     ```php
@@ -128,6 +128,7 @@ XAMPP est un choix populaire car il est compatible avec Windows, macOS et Linux.
     ```
     - Ouvrez votre navigateur web et tapez http://localhost/info.php.
     - Vous devriez voir une page avec les informations de configuration de PHP.
+    ![Info](./img/phpinfo.png)
 
 **Installation de MAMP (macOS, Widows)**
 <img src="./img/mamp-logo.png" alt="drawing" style="width:200px;"/>
@@ -149,6 +150,7 @@ XAMPP est un choix populaire car il est compatible avec Windows, macOS et Linux.
 1) Test du Serveur Web :
     - Ouvrez votre navigateur web et tapez http://localhost:8888/.
     - Vous devriez voir la page d'accueil de MAMP.
+    ![Apache home page](./img/apache-home-page.png)
 
 2) Test de PHP :
     - Dans le répertoire htdocs de MAMP (généralement /Applications/MAMP/htdocs), créez un fichier nommé info.php.
@@ -160,5 +162,6 @@ XAMPP est un choix populaire car il est compatible avec Windows, macOS et Linux.
     ```
     - Ouvrez votre navigateur web et tapez http://localhost:8888/info.php.
     - Vous devriez voir une page avec les informations de configuration de PHP.
+    ![Info](./img/phpinfo.png)
 
 Vous avez maintenant installé et configuré un environnement de développement PHP sur votre machine. Vous êtes prêt à commencer à écrire et à exécuter des scripts PHP. Dans le prochain module, nous allons explorer la syntaxe de base de PHP et créer nos premiers scripts PHP.
