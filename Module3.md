@@ -1,42 +1,62 @@
 # Module 3 : Contrôle de Flux
 Dans ce module, nous allons explorer les structures de contrôle en PHP, qui permettent de diriger le flux d'exécution de votre programme en fonction de différentes conditions et itérations.
 
-**Conditions (if, else, elseif, switch)**
-Les structures conditionnelles permettent de prendre des décisions dans le code.
+Les contrôles de flux sont utilisés pour diriger l'exécution du code en fonction de conditions spécifiques. Ils permettent de créer des chemins d'exécution multiples dans un programme, rendant possible l'exécution de différentes sections de code selon les différentes situations.
+
+**Les structures conditionnelles (if, else, elseif, switch)**
+1) **if** : Exécute un bloc de code si une condition est vraie.
+2) **else if** : Ajoute une autre condition à vérifier si la précédente était fausse.
+3) **else** : Exécute un bloc de code si toutes les conditions précédentes sont fausses.
 ```php
 <?php
-$a = 10;
-$b = 20;
-
-if ($a < $b) {
-    echo "$a est inférieur à $b";
-} elseif ($a == $b) {
-    echo "$a est égal à $b";
-} else {
-    echo "$a est supérieur à $b";
+$age = 18
+if ($age < 18){
+    echo "Vous êtes mineur.";
+}
+else if ($age == 18){
+    echo "Vous avez exactement 18 ans.";
+}
+else{
+   echo "Vous êtes majeur.";
 }
 ?>
 ```
-Le switch est une autre façon de gérer des conditions multiples.
+4) **switch** : Permet de sélectionner l'une des nombreuses branches à exécuter en fonction de la valeur d'une expression
 ```php
 <?php
-$jour = "lundi";
+$day = 3;
 
-switch ($jour) {
-    case "lundi":
-        echo "Aujourd'hui, c'est lundi";
+switch ($day) {
+    case 1:
+        echo "Lundi";
         break;
-    case "mardi":
-        echo "Aujourd'hui, c'est mardi";
+    case 2:
+        echo "Mardi";
+        break;
+    case 3:
+        echo "Mercredi";
+        break;
+    case 4:
+        echo "Jeudi";
+        break;
+    case 5:
+        echo "Vendredi";
+        break;
+    case 6:
+        echo "Samedi";
+        break;
+    case 7:
+        echo "Dimanche";
         break;
     default:
-        echo "Aujourd'hui, c'est un autre jour";
+        echo "Jour invalide";
+        break;
 }
 ?>
 ```
-***Boucles (for, while, do-while, foreach)***
+***Les structures itératives (for, while, do-while, foreach)***
 Les boucles permettent de répéter des blocs de code.
-***Boucle for***
+1) ***Boucle for*** : Est utilisée lorsque le nombre d'itérations est connu à l'avance. Elle comporte trois parties : l'initialisation, la condition, et l'incrémentation/décrémentation.
 ```php
 <?php
 for ($i = 0; $i < 10; $i++) {
@@ -44,7 +64,7 @@ for ($i = 0; $i < 10; $i++) {
 }
 ?>
 ```
-***Boucle while***
+2) ***Boucle while*** : Continue à exécuter un bloc de code tant qu'une condition donnée est vraie.
 ```php
 <?php
 $i = 0;
@@ -54,7 +74,7 @@ while ($i < 10) {
 }
 ?>
 ```
-***Boucle do-while***
+3) ***Boucle do-while*** : Similaire à la boucle while, mais elle exécute le bloc de code au moins une fois avant de vérifier la condition.
 ```php
 <?php
 $i = 0;
@@ -64,7 +84,7 @@ do {
 } while ($i < 10);
 ?>
 ```
-***Boucle foreach***
+4) ***Boucle foreach*** : Particulièrement utile pour itérer sur des tableaux (arrays). Elle permet d'accéder directement aux valeurs des éléments du tableau.
 ```php
 <?php
 $fruits = array("Pomme", "Banane", "Orange");
