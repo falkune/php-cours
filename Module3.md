@@ -7,92 +7,92 @@ Les contrôles de flux sont utilisés pour diriger l'exécution du code en fonct
 1) **if** : Exécute un bloc de code si une condition est vraie.
 2) **else if** : Ajoute une autre condition à vérifier si la précédente était fausse.
 3) **else** : Exécute un bloc de code si toutes les conditions précédentes sont fausses.
-```php
-<?php
-$age = 18
-if ($age < 18){
-    echo "Vous êtes mineur.";
-}
-else if ($age == 18){
-    echo "Vous avez exactement 18 ans.";
-}
-else{
-   echo "Vous êtes majeur.";
-}
-?>
-```
+    ```php
+    <?php
+    $age = 18
+    if ($age < 18){
+        echo "Vous êtes mineur.";
+    }
+    else if ($age == 18){
+        echo "Vous avez exactement 18 ans.";
+    }
+    else{
+    echo "Vous êtes majeur.";
+    }
+    ?>
+    ```
 4) **switch** : Permet de sélectionner l'une des nombreuses branches à exécuter en fonction de la valeur d'une expression
-```php
-<?php
-$day = 3;
+    ```php
+    <?php
+    $day = 3;
 
-switch ($day) {
-    case 1:
-        echo "Lundi";
-        break;
-    case 2:
-        echo "Mardi";
-        break;
-    case 3:
-        echo "Mercredi";
-        break;
-    case 4:
-        echo "Jeudi";
-        break;
-    case 5:
-        echo "Vendredi";
-        break;
-    case 6:
-        echo "Samedi";
-        break;
-    case 7:
-        echo "Dimanche";
-        break;
-    default:
-        echo "Jour invalide";
-        break;
-}
-?>
-```
+    switch ($day) {
+        case 1:
+            echo "Lundi";
+            break;
+        case 2:
+            echo "Mardi";
+            break;
+        case 3:
+            echo "Mercredi";
+            break;
+        case 4:
+            echo "Jeudi";
+            break;
+        case 5:
+            echo "Vendredi";
+            break;
+        case 6:
+            echo "Samedi";
+            break;
+        case 7:
+            echo "Dimanche";
+            break;
+        default:
+            echo "Jour invalide";
+            break;
+    }
+    ?>
+    ```
 ***Les structures itératives (for, while, do-while, foreach)***
 Les boucles permettent de répéter des blocs de code.
 1) ***Boucle for*** : Est utilisée lorsque le nombre d'itérations est connu à l'avance. Elle comporte trois parties : l'initialisation, la condition, et l'incrémentation/décrémentation.
-```php
-<?php
-for ($i = 0; $i < 10; $i++) {
-    echo "Le nombre est : $i <br>";
-}
-?>
-```
+    ```php
+    <?php
+    for ($i = 0; $i < 10; $i++) {
+        echo "Le nombre est : $i <br>";
+    }
+    ?>
+    ```
 2) ***Boucle while*** : Continue à exécuter un bloc de code tant qu'une condition donnée est vraie.
-```php
-<?php
-$i = 0;
-while ($i < 10) {
-    echo "Le nombre est : $i <br>";
-    $i++;
-}
-?>
-```
+    ```php
+    <?php
+    $i = 0;
+    while ($i < 10) {
+        echo "Le nombre est : $i <br>";
+        $i++;
+    }
+    ?>
+    ```
 3) ***Boucle do-while*** : Similaire à la boucle while, mais elle exécute le bloc de code au moins une fois avant de vérifier la condition.
-```php
-<?php
-$i = 0;
-do {
-    echo "Le nombre est : $i <br>";
-    $i++;
-} while ($i < 10);
-?>
-```
+    ```php
+    <?php
+    $i = 0;
+    do {
+        echo "Le nombre est : $i <br>";
+        $i++;
+    } while ($i < 10);
+    ?>
+    ```
 4) ***Boucle foreach*** : Particulièrement utile pour itérer sur des tableaux (arrays). Elle permet d'accéder directement aux valeurs des éléments du tableau.
-```php
-<?php
-$fruits = array("Pomme", "Banane", "Orange");
-foreach ($fruits as $fruit) {
-    echo "Le fruit est : $fruit <br>";
-}
-?>
-```
+    ```php
+    <?php
+    $fruits = array("Pomme", "Banane", "Orange");
+    foreach ($fruits as $fruit) {
+        echo "Le fruit est : $fruit <br>";
+    }
+    ?>
+    ```
 **Exercices Pratiques**
 
 ***Exercice 1 : Affichage de texte***
