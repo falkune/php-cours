@@ -97,8 +97,10 @@ Les boucles permettent de répéter des blocs de code.
 
 ***Exercice 1 : Affichage de texte***
 Créez un fichier PHP qui affiche "Hello, World!" en utilisant echo.
+
 ***Exercice 2 : Variables et Opérateurs***
 Créez un script PHP qui déclare deux variables, leur affecte des valeurs et affiche le résultat de leur addition, soustraction, multiplication et division.
+
 ***Exercice 3 : Conditions et Boucles***
 Créez un script PHP qui utilise une boucle for pour afficher les nombres de 1 à 10. Ensuite, utilisez une condition if pour vérifier si chaque nombre est pair ou impair et affichez un message correspondant.
 
