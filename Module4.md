@@ -122,12 +122,3 @@ Créez un site web simple avec des fichiers séparés pour l'en-tête, le pied d
 ##### Exercices Pratiques
 ***Exercice 1 : Fonctions***
 Créez une fonction calculerAireRectangle qui prend deux paramètres (longueur et largeur) et retourne l'aire du rectangle. Appelez cette fonction avec différentes valeurs et affichez les résultats.
-
-***Exercice 2 : Inclusion de Fichiers***
-Divisez une page web en trois fichiers : header.php, footer.php, et main.php. Incluez ces fichiers dans un fichier principal index.php pour afficher une page complète.
-
-***Exercice 3 : Fonction Anonyme***
-Créez un tableau de nombres et utilisez une fonction anonyme avec array_map pour doubler chaque valeur du tableau. Affichez le tableau original et le tableau modifié.
-
-##### Conclusion
-Vous avez maintenant appris à créer et utiliser des fonctions en PHP, ainsi qu'à inclure des fichiers pour structurer votre code de manière modulaire. Ces compétences sont essentielles pour développer des applications PHP robustes et maintenables. Dans le prochain module, nous aborderons la gestion des formulaires en PHP, ce qui vous permettra de collecter et de traiter des données utilisateur.
