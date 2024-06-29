@@ -78,6 +78,7 @@ include 'header.php'; // Inclut le fichier header.php
 require 'config.php'; // Inclut le fichier config.php
 ?>
 ```
+
 ##### include_once et require_once
 ***include_once*** et ***require_once*** fonctionnent comme include et require, mais ils vérifient si le fichier a déjà été inclus et, si c'est le cas, ne l'incluent pas à nouveau. Ceci est utile pour éviter les redéfinitions de fonctions ou de variables.
 ```php

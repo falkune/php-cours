@@ -54,7 +54,7 @@ Les contrôles de flux sont utilisés pour diriger l'exécution du code en fonct
     }
     ?>
     ```
-***Les structures itératives (for, while, do-while, foreach)***
+**Les structures itératives (for, while, do-while, foreach)**
 Les structures itératives, aussi appelées boucles, sont des mécanismes en programmation qui permettent de répéter l'exécution d'un bloc de code tant qu'une condition donnée est vraie ou pour un nombre spécifique de fois.
 1) ***Boucle for*** : Est utilisée lorsque le nombre d'itérations est connu à l'avance. Elle comporte trois parties : l'initialisation, la condition, et l'incrémentation/décrémentation.
     ```php
