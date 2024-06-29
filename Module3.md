@@ -24,9 +24,9 @@ Les contrôles de flux sont utilisés pour diriger l'exécution du code en fonct
 4) **switch** : Permet de sélectionner l'une des nombreuses branches à exécuter en fonction de la valeur d'une expression
     ```php
     <?php
-    $day = 3;
+    $numeroJour = 3;
 
-    switch ($day) {
+    switch ($numeroJour) {
         case 1:
             echo "Lundi";
             break;
@@ -55,7 +55,7 @@ Les contrôles de flux sont utilisés pour diriger l'exécution du code en fonct
     ?>
     ```
 ***Les structures itératives (for, while, do-while, foreach)***
-Les boucles permettent de répéter des blocs de code.
+Les structures itératives, aussi appelées boucles, sont des mécanismes en programmation qui permettent de répéter l'exécution d'un bloc de code tant qu'une condition donnée est vraie ou pour un nombre spécifique de fois.
 1) ***Boucle for*** : Est utilisée lorsque le nombre d'itérations est connu à l'avance. Elle comporte trois parties : l'initialisation, la condition, et l'incrémentation/décrémentation.
     ```php
     <?php
@@ -94,9 +94,6 @@ Les boucles permettent de répéter des blocs de code.
     ?>
     ```
 **Exercices Pratiques**
-
-***Exercice 1 : Affichage de texte***
-Créez un fichier PHP qui affiche "Hello, World!" en utilisant echo.
 
 ***Exercice 2 : Variables et Opérateurs***
 Créez un script PHP qui déclare deux variables, leur affecte des valeurs et affiche le résultat de leur addition, soustraction, multiplication et division.

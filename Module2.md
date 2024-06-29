@@ -1,12 +1,12 @@
 # Module 2 : Syntaxe de Base de PHP
 
-Dans ce module, nous allons explorer les éléments fondamentaux de la syntaxe PHP. Vous apprendrez comment déclarer des variables, utiliser différents types de données et opérateurs, et afficher des informations à l'écran.
+Dans ce module, nous allons explorer les éléments fondamentaux de la syntaxe PHP. Vous apprendrez à déclarer et utiliser des variables, utiliser différents types de données et opérateurs, et afficher des informations à l'écran.
 
 1) **Syntaxe et Structure de Base**
-PHP s'intègre dans le code HTML en utilisant des balises spécifiques. Voici comment vous pouvez insérer du code PHP dans un fichier HTML :
+PHP s'intègre dans le code HTML en utilisant des balises spécifiques. Voici comment vous pouvez insérer du code PHP dans un fichier HTML.
     ```php
-    <?php
-    // Votre code PHP ici
+    <?php 
+    // Votre Code PHP ici
     ?>
     ```
 2) **Instruction echo**
@@ -36,7 +36,9 @@ En programmation, les variables sont utilisées pour stocker des données de dif
         - ***Commencer par un Symbole Dollar***
         Toutes les variables en PHP doivent commencer par le symbole dollar ($).
             ```php
+            <?php
             $variable;
+            ?>
             ```
         - ***Premier Caractère Alphabétique ou Underscore***
         Le premier caractère après le symbole dollar doit être une lettre (a-z, A-Z) ou un underscore (_).
@@ -79,11 +81,13 @@ En programmation, les variables sont utilisées pour stocker des données de dif
         - Object (objet)
             ***Exemples :***
             ```php
+            <?php 
             $chaine = "Hello, world!"; // String
             $entier = 42; // Integer
             $flottant = 3.14; // Float
             $booleen = true; // Boolean
             $tableau = array(1, 2, 3); // Array
+            ?>
             ```
 4) ***Opérateurs***
 Les opérateurs en PHP sont des symboles qui permettent de réaliser des opérations sur des variables et des valeurs. Voici un guide complet des différents types d'opérateurs disponibles en PHP.
