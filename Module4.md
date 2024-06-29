@@ -119,6 +119,3 @@ Créez un site web simple avec des fichiers séparés pour l'en-tête, le pied d
 
 <?php include 'footer.php'; ?>
 ```
-##### Exercices Pratiques
-***Exercice 1 : Fonctions***
-Créez une fonction calculerAireRectangle qui prend deux paramètres (longueur et largeur) et retourne l'aire du rectangle. Appelez cette fonction avec différentes valeurs et affichez les résultats.

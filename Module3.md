@@ -93,14 +93,4 @@ Les structures itératives, aussi appelées boucles, sont des mécanismes en pro
     }
     ?>
     ```
-**Exercices Pratiques**
-
-***Exercice 2 : Variables et Opérateurs***
-Créez un script PHP qui déclare deux variables, leur affecte des valeurs et affiche le résultat de leur addition, soustraction, multiplication et division.
-
-***Exercice 3 : Conditions et Boucles***
-Créez un script PHP qui utilise une boucle for pour afficher les nombres de 1 à 10. Ensuite, utilisez une condition if pour vérifier si chaque nombre est pair ou impair et affichez un message correspondant.
-
-**Conclusion**
-Vous avez maintenant une bonne compréhension des structures de contrôle en PHP. Ces outils sont essentiels pour écrire des programmes interactifs et dynamiques. Dans le prochain module, nous aborderons les fonctions et l'inclusion de fichiers en PHP, ce qui vous permettra de réutiliser et d'organiser votre code de manière plus efficace.
 

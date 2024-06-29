@@ -163,5 +163,3 @@ XAMPP est un choix populaire car il est compatible avec Windows, macOS et Linux.
     - Ouvrez votre navigateur web et tapez http://localhost:8888/info.php.
     - Vous devriez voir une page avec les informations de configuration de PHP.
     ![Info](./img/phpinfo.png)
-
-Vous avez maintenant installé et configuré un environnement de développement PHP sur votre machine. Vous êtes prêt à commencer à écrire et à exécuter des scripts PHP. Dans le prochain module, nous allons explorer la syntaxe de base de PHP et créer nos premiers scripts PHP.

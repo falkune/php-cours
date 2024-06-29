@@ -120,4 +120,3 @@ Les opérateurs en PHP sont des symboles qui permettent de réaliser des opérat
     - ***Opérateurs d'Affection***
     Les opérateurs d'affectation sont utilisés pour assigner des valeurs aux variables.
     
-Vous avez maintenant une compréhension de base de la syntaxe de PHP. Vous pouvez déclarer des variables, utiliser différents types de données et opérateurs. Dans le prochain module, nous allons voir comment contrôler le flux de vos programmes avec des conditions et des boucles.

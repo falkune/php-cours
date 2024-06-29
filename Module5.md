@@ -141,15 +141,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && empty($nomErr) && empty($emailErr)) 
 }
 ?>
 ```
-##### Exercices Pratiques
-***Exercice 1 : Formulaire de Contact***
-Créez un formulaire de contact avec les champs suivants : nom, email, sujet et message. Validez les données et affichez un message de confirmation ou d'erreur.
-
-***Exercice 2 : Sauvegarde des Données***
-Modifiez le formulaire de contact pour sauvegarder les données dans un fichier contacts.txt.
-
-***Exercice 3 : Envoi d'Email***
-Ajoutez la fonctionnalité d'envoi d'email au formulaire de contact. Envoyez les données saisies par l'utilisateur à une adresse email spécifiée.
-
-##### Conclusion
-Vous avez maintenant appris à manipuler des formulaires en PHP, à valider et traiter les données saisies par les utilisateurs, à les sauvegarder et même à envoyer des emails. Dans le prochain module, nous aborderons les interactions avec les bases de données en PHP, ce qui vous permettra de stocker et de gérer des données de manière plus sophistiquée.
