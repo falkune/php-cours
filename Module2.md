@@ -176,4 +176,38 @@ Les opérateurs en PHP sont des symboles qui permettent de réaliser des opérat
         - Supérieur ou égal (>=) :
             ```php
             $a >= $b;
+    - ***Opérateurs Logiques***
+    Les opérateurs logiques sont utilisés pour combiner des expressions conditionnelles.
+        - ET (&& ou and) :
+            ```php
+            $a && $b;
+            $a and $b;
+            ```
+        - OU (|| ou or) :
+            ```php
+            $a || $b;
+            $a or $b;
+            ```
+        - NON (!) :
+            ```php
+            !$a;
+            ```
+        - XOR (ou exclusif) :
+            ```php
+            $a xor $b;
+            ```
+    - Autres Opérateurs
+        - Concaténation (.) :
+            ```php
+            $fullName = $firstName . " " . $lastName;
+            ```
+        - Concaténation et assignation (.=) :
+            ```php
+            $text .= "suite du texte"; // Equivalent à $text = $text . "suite du texte";
+            ```
+        - Opérateurs d'Incrémentation et de Décrémentation
+            ```php
+            $a++;
+            $a--;
+            ```
             
