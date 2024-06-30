@@ -134,3 +134,35 @@ Bien que la méthode GET soit facile à utiliser, elle présente plusieurs incon
 1) **Limites de taille** : Les URLs ont des limites de taille (environ 2000 caractères selon les navigateurs), ce qui restreint la quantité de données que vous pouvez envoyer via GET.
 2) **Visibilité des données** : Les données envoyées via GET sont visibles dans la barre d'adresse du navigateur. Cela pose des problèmes de sécurité et de confidentialité, notamment pour les informations sensibles telles que les mots de passe ou les données personnelles.
 3) **Cache et historique du navigateur** : Les données envoyées via GET sont stockées dans l'historique du navigateur et peuvent être mises en cache. Cela peut être problématique pour des informations qui ne devraient pas être mémorisées ou réutilisées par erreur.
+
+### Téléverser des images
+Voici comment vous devriez définir votre formulaire HTML pour permettre le téléversement de fichiers :
+```html
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    <label for="image">Choisir une image :</label>
+    <input type="file" name="image" id="image">
+    <input type="submit" value="Télécharger">
+</form>
+```
+Créez un fichier nommé upload.php avec le code suivant :
+```php
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES["image"])) {
+    $target_dir = "uploads/";
+    $target_file = $target_dir . $_FILES["image"]["name"];
+    
+    // Créer le répertoire s'il n'existe pas
+    if (!is_dir($target_dir)) {
+        mkdir($target_dir, 0777, true);
+    }
+
+    // Déplacer le fichier téléchargé vers le répertoire cible
+    if (move_uploaded_file($_FILES["image"]["tmp_name"], $target_file)) {
+        echo "Le fichier ". htmlspecialchars($_FILES["image"]["name"]) . " a été téléversé avec succès.<br>";
+        echo '<img src="'.$target_file.'" alt="Image téléversée">';
+    } else {
+        echo "Désolé, une erreur s'est produite lors du téléversement de votre fichier.";
+    }
+}
+?>
+```
