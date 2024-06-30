@@ -94,29 +94,86 @@ Les opérateurs en PHP sont des symboles qui permettent de réaliser des opérat
     - ***Opérateurs Arithmétiques***
     Les opérateurs arithmétiques sont utilisés pour effectuer des opérations mathématiques sur des valeurs numériques.
         - Addition (+) :
-        ```php
-        $sum = $a + $b;
-        ```
+            ```php
+            $sum = $a + $b;
+            ```
         - Soustraction (-) :
-        ```php
-        $difference = $a - $b;
-        ```
+            ```php
+            $difference = $a - $b;
+            ```
         - Multiplication (*) :
-        ```php
-        $product = $a * $b;
-        ```
+            ```php
+            $product = $a * $b;
+            ```
         - Division (/) :
-        ```php
-        $quotient = $a / $b;
-        ```
+            ```php
+            $quotient = $a / $b;
+            ```
         - Modulo (%) :
-        ```php
-        $remainder = $a % $b;
-        ```
+            ```php
+            $remainder = $a % $b;
+            ```
         - Exponentiation (**) :
-        ```php
-        $result = $a ** $b; // PHP 5.6 et versions ultérieures
-        ```
+            ```php
+            $result = $a ** $b; // PHP 5.6 et versions ultérieures
+            ```
     - ***Opérateurs d'Affection***
     Les opérateurs d'affectation sont utilisés pour assigner des valeurs aux variables.
-    
+        - Assignation simple (=) :
+            ```php
+            $a = 5;
+            ```
+        - Addition et assignation (+=) :
+            ```php
+            $a += 5; // Equivalent à $a = $a + 5;
+            ```
+        - Soustraction et assignation (-=) :
+            ```php
+            $a -= 5; // Equivalent à $a = $a - 5;
+            ```
+        - Multiplication et assignation (*=) :
+            ```php
+            $a *= 5; // Equivalent à $a = $a * 5;
+            ```
+        - Division et assignation (/=) :
+            ```php
+            $a /= 5; // Equivalent à $a = $a / 5;
+            ```
+        - Modulo et assignation (%=) :
+            ```php
+            $a %= 5; // Equivalent à $a = $a % 5;
+            ```
+    - ***Opérateurs de Comparaison***
+    Les opérateurs de comparaison sont utilisés pour comparer deux valeurs.
+        - Égal (==) :
+            ```php
+            $a == $b;
+            ```
+        - Identique (===) :
+            ```php
+            $a === $b; // Comparaison stricte (valeur et type)
+            ```
+        - Différent (!= ou <>) :
+            ```php
+            $a != $b;
+            ```
+        - Non identique (!==) :
+            ```php
+            $a !== $b; // Comparaison stricte (valeur et type)
+            ````
+        - Inférieur (<) :
+            ```php
+            $a < $b;
+            
+        - Supérieur (>) :
+            ```php
+            $a > $b;
+            
+        - Inférieur ou égal (<=) :
+            ```php
+            $a <= $b;
+            ```
+        - Supérieur ou égal (>=) :
+            ```php
+            $a >= $b;
+            
