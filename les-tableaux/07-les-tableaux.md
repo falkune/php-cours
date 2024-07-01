@@ -18,6 +18,8 @@ En programmation, il existe souvent plusieurs façons de faire la même chose. C
 
 Aucune des techniques qui suivent ne vaut réellement mieux qu'une autre, cela dépend en général de ce que l'on doit faire. Dans certains algorithmes, certaines formes sont plus simples à manipuler que d'autres, et dans d'autres algorithmes, c'est l'inverse.
 
+#### Académique peu propre
+
 ```PHP
 $geeks = array();    // Crée le tableau 'geeks'
 
@@ -44,6 +46,9 @@ Cette position s'appelle *l'index*. Et, oui, ***l'index* commence à 0.**
 Une liste de dix valeurs ira de 0 à 9, une de mille valeurs, de 0 à 999.
 
 Du coup, le développeur fera toujours très attention lorsqu'il lit les données dans un tableau, à bien démarrer à partir de 0, et surtout, surtout, à s'arrêter avant de dépasser la dernière valeur. Sans quoi c'est le *dépassement mémoire*, aussi appelé *"dépassement de pile"*, ou encore, bien plus connu : le *"stack overflow"*. Oui, le nom du site vient de là.
+
+
+#### Académique propre
 
 En PHP (et dans de nombreux autres langages) ***array*** permet de créer ce que l'on appelle des *objets* de type ***Array***, vous en verrez beaucoup plus sur le sujet lorsque nous parlerons de la *P.O.O.* (*Programmation Orientée Objet*). 
 
@@ -78,7 +83,6 @@ En utilisant la fonction [array_push()](https://www.php.net/manual/fr/function.a
 
 Donc, pour en revenir à notre exemple, à chaque appel à la méthode [array_push()](https://www.php.net/manual/fr/function.array-push.php), on empile un nouveau nom au dessus des autres. Et le programme se débrouille tout seul pour numéroter les éléments correctement.
 
-![Attention au stack overflow](../ALGO_1_-_Introduction-programmation/assets/img/03/stack-overflow.jpg)
 
 #### Académique vraiment propre
 
@@ -121,7 +125,7 @@ N'oubliez jamais que ce genre d'attention portée à la propreté et à la lisbi
 
 Il existe une autre façon, plus courte et plus rapide, de créer des tableaux.
 
-Dans de nombreux langages, dont PHP, il arrive que pour effectuer une certaine chose, il existe une méthode alternative plus courte. On appelle cela des *'shorthand'*. Souvenez-vous de ce terme, car il vous servira dans votre carrière pour rechercher des façons plus rapides de faire certaines choses.
+Dans de nombreux langages, dont PHP, il arrive que pour effectuer une certaine chose, il existe une méthode alternative plus courte. On appelle cela des *'shorthand'*. 
 
 Ainsi, en PHP il est possible d'écrire directement ceci :
 
@@ -726,8 +730,6 @@ Très pratique et très utilisée, la fonction [sort()](https://www.php.net/manu
 
 Par défaut, le tri se fera par ordre alphabétique.
 
-Cela vous suffira la plupart du temps. Vous apprendrez cepandant bientôt à créer votre propre code de tri afin de trier les éléments d'un tableau comme bon vous semble.
-
 **Exemple :**
 
 ```php
@@ -783,7 +785,7 @@ Tableau après le tri :Array
 
 ## Entraînez-vous
 
-Le fichier *"03-les-tableaux-depart.php"* contient un tableau *geeks* qui comporte des erreurs.
+Le fichier *"03-les-tableaux.php"* contient un tableau *geeks* qui comporte des erreurs.
 
 Des instructions précises sur ce que vous devez faire pour corriger ce tableau se trouvent en commentaire dans le code.
 
