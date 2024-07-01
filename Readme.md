@@ -39,3 +39,5 @@ Ce cours est structuré en modules, chacun couvrant un aspect clé de PHP :
 5) Manipulation de Formulaires : Interactions avec des formulaires HTML.
 6) Bases de Données : Connexion et manipulation de bases de données MySQL.
 7) Sessions et Cookies : Gestion des données utilisateur.
+
+iboudiokel@gmail.com

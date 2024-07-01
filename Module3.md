@@ -100,6 +100,8 @@ Exercice 1 : Détermination de la saison
 Ecrire un script PHP qui affiche la saison en fonction du mois actuel. Utiliser une structure switch pour déterminer la saison.
 (decembre, janvier et fevrier pour hiver), (mars, avril, mai pour printemps),
 (juin, juillet, aout pour été) et (semptembre, octobre, novembre pour automne)
+$moi = "Janvien;
+
 
 Exercice 2 : Calcul de remise
 Ecrire un script PHP qui calcule le prix après une remise en fonction du montant d'achat de l'utilisateur. Si le montant d'achat est supérieur ou égal à 100€, appliquer une remise de 10%. Sinon, ne pas appliquer de remise..
@@ -117,8 +119,6 @@ voulu le récompenser en lui offrant ce qu'il désirait. L'humble vieillard souh
 Lorsque le seigneur demanda combien de riz exactement, le vieux sage répondit : 
 "Exactement assez pour mettre 1 grain de riz sur la premier case de mon damier, puis 2 sur la deuxième case, 4 sur la troisième, 8 sur la suivante, et ainsi de suite pour les 64 cases du damier."
 Le seigneur, enthousiaste, donna son accord. 
-
-EXERCICE 
 
 Etape 1 :
 Ecrivez un programme qui affiche la quantité de grains à déposer sur chacune des cases du damier.

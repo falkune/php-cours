@@ -5,18 +5,16 @@ Dans ce module, nous allons explorer comment PHP peut interagir avec des bases d
 MySQL est un système de gestion de bases de données relationnelles (SGBDR) qui utilise le langage SQL (Structured Query Language) pour gérer les données. Avant de commencer à manipuler des bases de données avec PHP, assurez-vous d'avoir MySQL installé sur votre système.
 
 ##### Connexion à une Base de Données MySQL
-Pour se connecter à une base de données MySQL en PHP, vous pouvez utiliser l'extension mysqli ou PDO (PHP Data Objects). Nous utiliserons ici mysqli.
+Pour se connecter à une base de données MySQL en PHP, vous pouvez utiliser l'extension mysqli ou PDO (PHP Data Objects).
 
 ##### Connexion avec PDO
 ```php
 <?php
-$dsn = "mysql:host=localhost;dbname=test";
 $username = "root";
 $password = "";
 
 try {
-    $conn = new PDO($dsn, $username, $password);
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $conn = new PDO("mysql:host=localhost;dbname=test", $username, $password);
     echo "Connexion réussie";
 } catch (PDOException $e) {
     echo "La connexion a échoué: " . $e->getMessage();
@@ -26,29 +24,39 @@ try {
 ##### Exécution de Requêtes SQL
 ***Insertion de Données***
 ```php
-<?php
-$sql = "INSERT INTO Utilisateurs (nom, email) VALUES ('John Doe', 'john@example.com')";
+// preparation de la requete
+$request = $conn->prepare("INSERT INTO nom_de_la_table (champ1, champ2,...) VALUES (?, ?,...)");
 
-if ($conn->query($sql) === TRUE) {
-    echo "Nouvel enregistrement créé avec succès";
-} else {
-    echo "Erreur: " . $sql . "<br>" . $conn->error;
-}
-?>
+// execution de la requete
+$request->execute(array($valeur1, $valeur2, ...));
 ```
-***Sélection de Données***
-```php
-<?php
-$sql = "SELECT id, nom, email FROM Utilisateurs";
-$result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    // Afficher les données de chaque ligne
-    while($row = $result->fetch_assoc()) {
-        echo "id: " . $row["id"]. " - Nom: " . $row["nom"]. " - Email: " . $row["email"]. "<br>";
-    }
-} else {
-    echo "0 résultats";
-}
-?>
+***Récuperation de Données***
+```php
+// preparation de la requete
+$request = $conn->prepare("SELECT * FROM la_table");
+
+// execution de la requete
+$request->execute();
+
+// recuperation du resultat de la requette
+$resultat = $request->fetchAll();
+$resultat = $request->fetch();
+```
+***Modification de Données***
+```php
+// preparation de la requete
+$request = $conn->prepare("UPDATE nom_table SET nom_colonne = ? WHERE nom_colonne = ?");
+
+// execution de la requete
+$request->execute(array($valeur1, $valeur2));
+```
+
+***Suppression de Données***
+```php
+// preparation de la requete
+$request = $conn->prepare("DELETE FROM nom_table WHERE nom_colonne = ?");
+
+// execution de la requete
+$request->execute(array($valeur));
 ```
