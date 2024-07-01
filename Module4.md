@@ -119,3 +119,32 @@ Créez un site web simple avec des fichiers séparés pour l'en-tête, le pied d
 
 <?php include 'footer.php'; ?>
 ```
+
+
+
+
+
+# Exercice 1: Verification de la Parite
+Ecrivez une fonction qui prend un nombre en parametre et affiche "pair" s'il est pair et "impair" s'il est impair.
+
+procedure:
+1) Definir la fonction : Creez une fonction nommee verifierParite prenant un parametre $nombre.
+
+2) Verifier la parite : Utilisez une instruction if pour verifier si le nombre est pair ou impair en utilisant.
+
+3) Afficher le resultat : Utilisez une instruction echo pour afficher le resultat de la parite.
+
+
+
+# Exercice 2: Recherche du Plus Grand Nombre
+Ecrivez une fonction qui prend un tableau de nombres en parametre et renvoie le plus grand nombre. 
+
+procedure:
+1) Definir la fonction : Creez une fonction nommee plusGrandNombre prenant un paramètre $tableau.
+
+2) Initialiser le plus grand nombre : Initialisez une variable $max avec la première valeur du tableau.
+
+3) Boucle de recherche : Utilisez une boucle pour comparer chaque element du tableau avec la variable $max et mettez à jour $max si une valeur plus grande est trouvee.
+
+4) Retourner le resultat : Renvoyez la valeur de $max à la fin de la fonction.
+

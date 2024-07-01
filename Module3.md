@@ -94,3 +94,39 @@ Les structures itératives, aussi appelées boucles, sont des mécanismes en pro
     ?>
     ```
 
+
+## Exercices:
+Exercice 1 : Détermination de la saison
+Ecrire un script PHP qui affiche la saison en fonction du mois actuel. Utiliser une structure switch pour déterminer la saison.
+(decembre, janvier et fevrier pour hiver), (mars, avril, mai pour printemps),
+(juin, juillet, aout pour été) et (semptembre, octobre, novembre pour automne)
+
+Exercice 2 : Calcul de remise
+Ecrire un script PHP qui calcule le prix après une remise en fonction du montant d'achat de l'utilisateur. Si le montant d'achat est supérieur ou égal à 100€, appliquer une remise de 10%. Sinon, ne pas appliquer de remise..
+
+Exercice 3 : Validation d'un nombre pair ou impair
+Ecrire un script PHP qui vérifie si un nombre saisi par l'utilisateur est pair ou impair et affiche un message correspondant.
+
+
+Exercice 4 : Le problème de Sissa
+
+AVANT PROPOS 
+
+Une légende Indienne raconte qu'un vieux sage, Sissa, inventa le jeu d'échec est que son seigneur, impresionné, 
+voulu le récompenser en lui offrant ce qu'il désirait. L'humble vieillard souhaita juste un peu de riz pour ses vieux jours.
+Lorsque le seigneur demanda combien de riz exactement, le vieux sage répondit : 
+"Exactement assez pour mettre 1 grain de riz sur la premier case de mon damier, puis 2 sur la deuxième case, 4 sur la troisième, 8 sur la suivante, et ainsi de suite pour les 64 cases du damier."
+Le seigneur, enthousiaste, donna son accord. 
+
+EXERCICE 
+
+Etape 1 :
+Ecrivez un programme qui affiche la quantité de grains à déposer sur chacune des cases du damier.
+
+Etape 2 :
+A la fin de votre programme, affichez le nombre total de grains de riz que le seigneur doit au vieux sage.
+
+Etape 3 :
+Enfin, en sachant qu'il y a, environ, 3500 grains par kilo de riz, calculez le poids total de riz que cela représente.
+
+
